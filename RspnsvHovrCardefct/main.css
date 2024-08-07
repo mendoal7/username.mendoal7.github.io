@@ -1,0 +1,43 @@
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+body {
+background: rgb(27, 27, 27);
+}
+
+.container {
+display: flex;
+justify-content: center;
+flex-box: wrap;
+}
+
+.card {
+background: white;
+width: 300px;
+height: 500px;
+margin: 10px;
+border-radius: 15px;
+}
+
+.card-image {
+height: 400px;
+margin-bottom: 15px;
+background-size: cover;
+border-radius: 15px 15px 0 0;
+}
+
+.car-1 {
+background-image: url("jeff-smith-Wg-2kBVND3c-unsplash.jpg");
+}
+
+.car-2 {
+background-image: url("BoltSketch200wx318h.jpg");
+}
+
+.car-3 {
+background-image: url("viktor-theo-7nn15fCDL4w-unsplash.jpg");
+
+}
